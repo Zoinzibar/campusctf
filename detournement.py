@@ -56,7 +56,7 @@ def u():
 
 @app.route('/1')
 def one():
-    return redirect('/4')
+    return redirect('/}')
 
 @app.route('/}')
 def close():
