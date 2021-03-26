@@ -1,7 +1,7 @@
 """
 Application Flask qui redirige sur differentes pages pour obtenir le flag
 
-flag = RS{C0UC0U-84ND3_D3_N0U11135}
+flag = RS{734M_JU1}
 """
 ### Import des modules
 from flask import Flask, render_template, redirect, url_for, request, abort
@@ -24,99 +24,39 @@ def S():
 
 @app.route('/{')
 def open():
-    return redirect('/C')
+    return redirect('/7')
 
-@app.route('/C')
-def four():
-    return redirect('/0')
+@app.route('/7')
+def seven():
+    return redirect('/3')
 
-@app.route('/0')
-def ex():
-    return redirect('/U')
-
-@app.route('/U')
-def w():
-    return redirect('/C')
-
-@Cpp.route('/C')
-def a():
-    return redirect('/0')
-
-@app.route('/0')
-def y():
-    return redirect('/U')
-
-@app.route('/U')
-def five():
-    return redirect('/-')
-
-@app.route('/-')
-def under():
-    return redirect('/8')
-
-@app.route('/8')
-def K():
+@app.route('/3')
+def three():
     return redirect('/4')
 
 @app.route('/4')
-def e():
-    return redirect('/N')
+def four():
+    return redirect('/M')
 
-@app.route('/N')
-def three():
-    return redirect('/D')
-
-@app.route('/D')
-def p():
-    return redirect('/3')
-
-@app.route('/3')
-def dash():
-    return redirect('/_')
-
-@app.route('/_')
+@app.route('/M')
 def m():
-    return redirect('/D')
-
-@app.route('/D')
-def zero():
-    return redirect('/3')
-
-@app.route('/3')
-def v():
     return redirect('/_')
 
 @app.route('/_')
+def bracket():
+    return redirect('/J')
+
+@app.route('/J')
+def j():
+    return redirect('/U')
+
+@app.route('/U')
+def u():
+    return redirect('/1')
+
+@app.route('/1')
 def one():
-    return redirect('/N')
-
-@app.route('/N')
-def n():
-    return redirect('/0')
-
-@app.route('/0')
-def g():
-    return redirect('/1')
-
-@app.route('/1')
-def g():
-    return redirect('/1')
-
-@app.route('/1')
-def g():
-    return redirect('/1')
-
-@app.route('/1')
-def g():
-    return redirect('/1')
-
-@app.route('/3')
-def g():
-    return redirect('/1')
-
-@app.route('/5')
-def close():
-    return redirect('/5')
+    return redirect('/4')
 
 @app.route('/}')
 def close():
